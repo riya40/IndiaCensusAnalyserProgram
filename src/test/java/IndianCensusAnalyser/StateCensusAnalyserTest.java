@@ -20,7 +20,6 @@ public class StateCensusAnalyserTest
         String result=censusAnalyser.loaddatauseiterator();
         String result1=csvStateCensus.loaddata();
         Assertions.assertEquals(result,result1);
-        
     }
 
 }
